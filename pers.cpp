@@ -5,7 +5,6 @@
 #include <random>
 
 int getDamage(const Knight& k1) {
-	//srand(time(0)+a);
 	std::random_device rd;
 	std::mt19937 gen(rd());
 	std::uniform_int_distribution<int> uid(0, 50);
